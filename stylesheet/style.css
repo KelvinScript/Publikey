@@ -218,6 +218,53 @@ nav.scrolled .hamburger {
     height: auto;
     display: block;
 }
+/* Missão */
+/*#mvv {
+    padding: 80px 8%;
+    background:#333;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#mvv.card {
+    flex: 1;
+    min-width: 260px;
+    background: #333;
+    padding: 40px 30px;
+    border-radius: var(--radius);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#mvv .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+#mvv .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--cor-amarelo);
+}
+
+#mvv .card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    color: var(--cor-amarelo);
+}
+
+#mvv .card p {
+    line-height: 1.6rem;
+    opacity: 0.85;
+}*/
 /* Influencer */
 #influencer {
     background-color: #f8f8f8;
@@ -245,6 +292,11 @@ nav.scrolled .hamburger {
 }
 .carousel-slide.active {
     opacity: 1;
+}
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .carousel-info {
     position: absolute;
